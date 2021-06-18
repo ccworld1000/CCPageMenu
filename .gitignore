@@ -1,3 +1,4 @@
+*.podspec
 .DS_Store
 
 # Xcode
