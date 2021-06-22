@@ -1,5 +1,4 @@
-##[CCPageMenu](https://github.com/ccworld1000/CCPageMenu) Paging through view controllers made easy
-
+## [CCPageMenu](https://github.com/ccworld1000/CCPageMenu) Paging through view controllers made easy
 
 [![License](https://img.shields.io/cocoapods/l/PageMenu.svg?style=flat)](http://cocoapods.org/pods/PageMenu)
 [![Platform](https://img.shields.io/cocoapods/p/PageMenu.svg?style=flat)](http://cocoapods.org/pods/PageMenu)
@@ -9,7 +8,7 @@
 
 **lastest Release (06/17/2021)** by [CC](https://github.com/ccworld1000)
 
-* support Swift 5.0
+* support Swift 5.0 and Objective-C
 * support From iOS 9.0
 * fixes all project (Swift 5.0)
 
@@ -35,13 +34,31 @@ A fully customizable and flexible paging menu controller built from other view c
 
 ## Installation
 
-**CocoaPods**
+**CocoaPods for CCPageMenu**
 
-Import [CCPageMenu](https://github.com/ccworld1000/CCPageMenu)
+import [CCPageMenu](https://github.com/ccworld1000/CCPageMenu) for Swift
 
 ```shell
 pod 'CCPageMenu'
 ```
+
+```swift
+import CCPageMenu
+```
+
+import CCPageMenuOC for Objective-C
+
+```shell
+pod 'CCPageMenuOC'
+```
+
+```objc
+#import <CCPageMenuOC/CAPSPageMenu.h>
+```
+
+
+
+### Old Version
 
 Old Version PageMenu is available through [CocoaPods](http://cocoapods.org). !! Swift only !!
 
